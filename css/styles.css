@@ -2,7 +2,90 @@
   box-sizing: border-box;
 }
 
+body {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0.863);
+  line-height: 22px;
+  font-size: 16px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+p {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
 .mainHeader {
   display: flex;
+  justify-content: center;
   background-image: url(https://image.ibb.co/gzOBup/showcase.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.logoHeader {
+  width: 170px;
+  height: 170px;
+}
+
+h1 {
+  line-height: normal;
+  font-size: 40px;
+}
+
+.blockA {
+  display: flex;
+  justify-content: center;
+}
+
+.boxBlockA {
+  margin: 60px 0;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: normal;
+}
+
+.fa-youtube,
+.fa-graduation-cap,
+.fa-network-wired {
+  font-size: 45px;
+}
+
+.blockBg {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.blockB {
+  display: flex;
+}
+
+.fa-laptop {
+  font-size: 180px;
+}
+
+.boxBlockB-1 {
+  margin: 60px 150px 60px 150px;
+}
+
+.boxBlockB-2 {
+  margin: 60px 0;
+  text-align: left;
+}
+
+.textBlocB {
+  font-size: 15px;
 }
