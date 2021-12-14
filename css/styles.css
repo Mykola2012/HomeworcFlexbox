@@ -1,0 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+.mainHeader {
+  display: flex;
+  background-image: url(https://image.ibb.co/gzOBup/showcase.jpg);
+}
