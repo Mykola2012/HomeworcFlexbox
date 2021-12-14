@@ -89,3 +89,12 @@ h2 {
 .textBlocB {
   font-size: 15px;
 }
+
+.mainFooter {
+  min-height: 90px;
+}
+
+.textFooter {
+  margin: 0;
+  padding: 35px;
+}
